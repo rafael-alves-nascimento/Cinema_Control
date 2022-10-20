@@ -1,0 +1,57 @@
+.body{
+    justify-content: center;
+    align-items: center;
+}
+
+.cinemaInfo{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+    border-radius: 15px;
+    margin-top:100px;
+}
+
+.container-sala{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.infos-sala{
+    width: 400px;
+    height: 550px;
+    margin-top: 200px;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow:20px 10px black;
+}
+
+.texto_infos{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.botao{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color:red;
+    border: red solid 1px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.sinopse{
+    width: 200px;
+    height: 200px;
+}
+
+.text{
+    margin-top:5;
+    color:red;
+    width:350px;
+    height:150px;
+}
