@@ -46,28 +46,28 @@ select * from Ingresso;
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-Inserts Salas =-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
 /* Insert Sala 1*/
-insert into Salas values (default,"Sala 1",101,"15:00",0);
-insert into Salas values (default,"Sala 1",101,"18:00",0);
+insert into Salas values (default,"Sala 1",100,"15:00",0);
+insert into Salas values (default,"Sala 1",100,"18:00",0);
 
 /* Insert Sala 2*/
-insert into Salas values (default,"Sala 2",121,"17:00",0);
+insert into Salas values (default,"Sala 2",120,"17:00",0);
 
 /* Insert Sala 3*/
-insert into Salas values (default,"Sala 3",111,"22:00",0);
+insert into Salas values (default,"Sala 3",110,"22:00",0);
 
 /* Insert Sala 4*/
-insert into Salas values (default,"Sala 4",91,"16:00",0);
-insert into Salas values (default,"Sala 4",91,"20:00",0);
+insert into Salas values (default,"Sala 4",90,"16:00",0);
+insert into Salas values (default,"Sala 4",90,"20:00",0);
 
 /* Insert Sala 5*/
-insert into Salas values (default,"Sala 5",101,"18:00",0);
+insert into Salas values (default,"Sala 5",100,"18:00",0);
 
 /* Insert Sala 6*/
-insert into Salas values (default,"Sala 6",91,"21:00",0);
+insert into Salas values (default,"Sala 6",90,"21:00",0);
 
 /* Insert Sala 7*/
-insert into Salas values (default,"Sala 7",151,"15:00",0);
-insert into Salas values (default,"Sala 7",151,"20:30",0);
+insert into Salas values (default,"Sala 7",150,"15:00",0);
+insert into Salas values (default,"Sala 7",150,"20:30",0);
 
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-Inserts Filmes =-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
