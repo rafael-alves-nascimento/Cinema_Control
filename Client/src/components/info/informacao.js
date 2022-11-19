@@ -19,7 +19,9 @@ const Infos = () => {
     const [faturamento,setFaturamento] = useState('')
     const [desativar,setDesativar] = useState(false)
     const [cor,setCor] = useState("")
-
+    const [btSinopse,setBtsinopse] = useState(true)
+    
+    
     const params = useParams();
     const id = params.id
 
@@ -71,6 +73,7 @@ const Infos = () => {
         textArea.setAttribute('disabled', true);
         infos.appendChild(textArea)
         console.log(sinopse)
+        setBtsinopse(false)
     }
 
 
@@ -85,7 +88,7 @@ const Infos = () => {
                 <h5 className="texto_infos">Ingressos vendidos: {ingressosvend}</h5>
                 <h5 className="texto_infos">Ingressos restantes: {ingressosdisp}</h5>
                 <button className="botao" disabled={desativar} onClick={comprarIngressos}> COMPRAR </button>
-                <button className="botao" onClick={Sinopse}> Ver Sinopse</button>
+                <button className="botao" disabled={btSinopse} onClick={Sinopse}> Ver Sinopse</button>
                 <h5 className="texto_infos" >Faturamento: {faturamento} R$</h5>
                 
             </div>
